@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
+import { DocumentHead, Link } from '@builder.io/qwik-city';
 
 import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
@@ -17,6 +17,7 @@ export default component$(() => {
           <div q:slot="title" class="icon icon-cli">
             Commands
           </div>
+          <Link href="/contact">contact</Link>
         </Infobox>
 
         <div>
