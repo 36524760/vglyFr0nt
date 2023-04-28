@@ -9,11 +9,12 @@
 :root {
   --qwik-dark-blue: #006ce9;
   --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
+  --qwik-light-purple: #f47f7f;
+  --qwik-dark-purple: #3fb3c2;
   --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
+  --qwik-dark-background: #0e0d0d;
   --qwik-dark-text: #ffffff;
+  --ugly-light-blue: rgb(50, 195, 205);
 }
 
 html {

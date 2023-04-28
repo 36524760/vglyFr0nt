@@ -26,8 +26,8 @@ h1 {
   text-align: center;
 }
 h1 .highlight,
-h3 .highlight {
-  color: var(--qwik-light-blue);
+.highlight {
+  color: var(--ugly-light-blue);
 }
 
 h2 {
