@@ -5,11 +5,11 @@ export default component$(() => {
   return (
     <div class={['container', styles.hero]}>
       <h1>
-        So <span class="highlight">fantastic</span>
+        The<span class="highlight"> Random</span> 
         <br />
-        to have <span class="highlight">you</span> here
+        <span class="highlight">Front</span> Page
       </h1>
-      <p>Have fun building your App with Qwik.</p>
+      <p>Have fun</p>
       <div class={styles['button-group']}>
         <button
           onClick$={async () => {
@@ -64,11 +64,8 @@ export default component$(() => {
             setTimeout(shoot, 400);
           }}
         >
-          Time to celebrate
+          Sparks
         </button>
-        <a href="https://qwik.builder.io/docs" target="_blank" class="button button-dark">
-          Explore the docs
-        </a>
       </div>
     </div>
   );
